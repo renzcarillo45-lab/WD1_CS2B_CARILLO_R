@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>List of Enrolled Students</h1>
+
+    <!-- Table filled in by displayStudents() in script.js -->
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody id="studentBody"></tbody>
+    </table>
+
+    <button id="showBtn">Show Grade Equivalent</button>
+
+    <!-- Result table, filled in by showGradeEquivalent() -->
+    <div id="result"></div>
+
+    <!-- External JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
